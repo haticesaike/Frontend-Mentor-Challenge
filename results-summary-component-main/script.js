@@ -2,7 +2,8 @@ var data = fetch("data.json")
   .then((response) => response.json())
   .then((data) => {
     console.log(data);
-    Object.keys(data).map((item, index) => {
+    let resdata = Object.keys(data).reverse(); 
+    resdata.map((item, index) => {
       let rightSideItem = document.createElement("div");
       rightSideItem.className = "right-side-item";
       rightSideItem.classList.add(`background-item-${index + 1}`);
@@ -30,6 +31,7 @@ var data = fetch("data.json")
       flex.appendChild(colorHundred);
       rightSideItem.appendChild(rsItem);
       rightSideItem.appendChild(flex);
-      document.querySelector(".right-side").appendChild(rightSideItem);
+
+      document.querySelector(".right-side").insertBefore(rightSideItem, document.querySelector(".right-side").childNodes[2] );
     });
   });
