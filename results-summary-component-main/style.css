@@ -124,30 +124,19 @@ p {
   align-items: center;
   gap: 3px;
 }
-.color-red {
-  color: hsl(0, 100%, 67%);
-}
+
 .background-item-1 {
   background-color: #fff6f5;
 }
 
-.color-orange {
-  color: hsl(39, 100%, 56%);
-}
 .background-item-2 {
   background-color: #fffbf2;
 }
 
-.color-green {
-  color: hsl(166, 100%, 37%);
-}
 .background-item-3 {
   background-color: #f2fbfa;
 }
 
-.color-blue {
-  color: hsl(234, 85%, 45%);
-}
 .background-item-4 {
   background-color: #f3f3fd;
 }
