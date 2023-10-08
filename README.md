@@ -12,5 +12,5 @@
 
 
 ### Mobile Design
-![App Screenshot](https://github.com/haticesaike/Frontend-Mentor-Challenge/blob/master/product-preview-card-component-main/images/chrome_hDjRKtp7Jg.png?raw=true)
+![App Screenshot](https://github.com/haticesaike/Frontend-Mentor-Challenge/blob/master/product-preview-card-component-main/images/chrome_IrrJRso7vO.png?raw=true)
 
