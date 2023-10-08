@@ -14,22 +14,16 @@ body {
 }
 .container {
   display: flex;
-
   width: 50%;
   height: 70%;
   border-radius: 10px;
 }
+
 .left-side {
   flex: 1;
   border-radius: 10px 0px 0px 10px;
 }
 
-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: inherit;
-}
 .right-side {
   display: flex;
   flex: 1;
@@ -39,6 +33,12 @@ img {
   border-radius: 0px 10px 10px 0px;
 }
 
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
 .item-1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -110,4 +110,24 @@ button {
 
   align-self: center;
   justify-self: center;
+}
+
+@media (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+  }
+
+  .left-side {
+    height: 40%;
+
+    border-radius: 10px 10px 0px 0px;
+  }
+  .right-side {
+    height: 30%;
+    border-radius: 0px 0px 10px 10px;
+  }
 }
